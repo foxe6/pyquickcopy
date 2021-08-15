@@ -31,6 +31,7 @@ import pyquickcopy
 accumulate_list = []
 
 
+# currently not working with clipboard with '\n' character
 def listener(clipboard):
     # tbd
     # copy a special text to trigger clear accumulate_list

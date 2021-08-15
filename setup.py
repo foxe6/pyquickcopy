@@ -18,7 +18,7 @@ open("README.md", "wb").write(readme.encode("utf-8"))
 description = re.search(r"<i>(.*?)</i>", readme)[1]
 setup(
     name="pyquickcopy",
-    version="0.0.1",
+    version="0.0.2",
     keywords=["quickcopy quick copy"],
     packages=find_packages(),
     package_data={
@@ -35,7 +35,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     install_requires=open("requirements.txt").read().splitlines(),
-    python_requires=">=3.7",
+    python_requires=">=3",
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "Topic :: Utilities",
